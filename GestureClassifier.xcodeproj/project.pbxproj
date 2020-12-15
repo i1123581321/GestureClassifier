@@ -13,6 +13,7 @@
 		68F28BED2588A8900082A471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F28BEB2588A8900082A471 /* Main.storyboard */; };
 		68F28BEF2588A8910082A471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F28BEE2588A8910082A471 /* Assets.xcassets */; };
 		68F28BF22588A8910082A471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F28BF02588A8910082A471 /* LaunchScreen.storyboard */; };
+		68F28C012588D9400082A471 /* GestureClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 68F28C002588D9400082A471 /* GestureClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		68F28BEE2588A8910082A471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68F28BF12588A8910082A471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68F28BF32588A8910082A471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68F28C002588D9400082A471 /* GestureClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GestureClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		68F28BE42588A8900082A471 /* GestureClassifier */ = {
 			isa = PBXGroup;
 			children = (
+				68F28C002588D9400082A471 /* GestureClassifier.mlmodel */,
 				68F28BE52588A8900082A471 /* AppDelegate.swift */,
 				68F28BE72588A8900082A471 /* SceneDelegate.swift */,
 				68F28BE92588A8900082A471 /* ViewController.swift */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68F28BEA2588A8900082A471 /* ViewController.swift in Sources */,
+				68F28C012588D9400082A471 /* GestureClassifier.mlmodel in Sources */,
 				68F28BE62588A8900082A471 /* AppDelegate.swift in Sources */,
 				68F28BE82588A8900082A471 /* SceneDelegate.swift in Sources */,
 			);
